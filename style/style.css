@@ -1,0 +1,502 @@
+head{
+	margin:0px;
+}
+body
+	{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    position: relative;
+    margin:0px;
+    background-color:url('gallery-img5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+	}
+.heading {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.subheading {
+  font-size: 16px;
+  padding-bottom: 60px;
+}
+a{
+	color: white;
+	text-decoration: none;
+	vertical-align:center;
+
+}
+p {
+  color: #848484;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  line-height: 28px;
+}
+
+hr {
+	border-top: 2px solid #828282;
+	width: 120px;
+}
+.logo{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.navbar{
+  /*background:powderblue;*/
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.04);
+  border: none;
+  margin: 0px;
+  color: #5C5C5C;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  position: relative;
+}
+.copyright{
+  background: #343434;
+  color: #ffffff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+
+.size{
+	font-size: 50px;
+	width: 50%;
+
+}
+b{
+	font-family: sans-serif;
+	color: red;
+}
+
+.thankyou{
+  font-size: 100px;
+  text-align: center;
+  margin-top: 300px;
+  margin-bottom: 300px;
+  color: red;
+}
+
+.box {
+position: absolute;
+top: 45%;
+left: 25%;
+transform: translate(-50%, -15%);
+width: 400px;
+padding: 40px;
+background: rgba(0.0,0.0,0.0,.7);
+box-sizing: border-box;
+box-shadow: 0 15px 25px rgba(0,0,0,.5);
+border-radius: 10px;
+}
+
+.box h2 {
+font: italic;
+margin: 0 0 30px;
+padding: 0;
+color: #fff;
+text-align: center;
+}
+
+.box .inputBox {
+position: relative;
+}
+
+.box .inputBox input {
+width: 100%;
+padding: 10px 0;
+font-size: 16px;
+color: #fff;
+margin-bottom: 30px;
+border: none;
+border-bottom: 1px solid #fff;
+outline: none;
+background: transparent;
+}
+
+.box .inputBox label {
+position: absolute;
+top: 0;
+left: 0;
+padding: 10px 0;
+font-size: 16px;
+color: #fff;
+pointer-events: none;
+transition: .5s;
+}
+
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label {
+top: -20px;
+color: orange;
+font-size: 12px;
+}
+
+.box input[type="submit"] {
+background: transparent;
+border: none;
+outline: none;
+color: #fff;
+background: orange;
+padding: 10px 30px;
+cursor: pointer;
+border-radius: 5px;
+margin-left: 5%;
+}
+
+.box input[type="submit"]:hover{
+color:black;
+background: white;
+
+}
+
+footer{
+  transform:translate(0%,200%);
+}
+
+.tag{
+  background: orange;
+  padding: 10px 30px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.tag:hover{
+  color:black;
+  background: white;
+}
+
+.right-box{
+  position: absolute;
+  top: 30%;
+  right: 25%;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background: rgba(0.0,0.0,0.0,.7);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.5);
+  border-radius: 10px;
+}
+
+.or{
+  position: absolute;
+  top:250px;
+  left: 600px;
+  width: 48px;
+  height: 40px;
+  background: #efefef;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+  line-height: 40px;
+  text-align: center;
+}
+
+.right-box .signinwith{
+  display: block;
+  margin-bottom: 40px;
+  font-size: 28px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+}
+
+button.social{
+  margin-bottom: 20px;
+  width: 220px;
+  height: 36px;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 500;
+  transition: 0.2s ease;
+  cursor:pointer;
+}
+
+.facebook{
+  background: #32508e;
+}
+.twitter{
+  background: #55acee;
+}
+.google{
+  background: #dd4b39;
+}
+.search-box{
+  align-items: left;
+  position:absolute;
+  top: 20%;
+  left: 79.7%;
+  transform: translate(-100%,0%);
+  background: white;
+  height: 60px;
+  border-radius: 40px;
+  padding: 10px;
+}
+.search-btn{
+  color: black;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-text{
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: black;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px; 
+}
+.search-box:hover > .search-text{
+  width: 200px;
+  padding: 0 6px;
+}
+.search-box:hover > .search-btn{
+  background-color: white;
+}
+table{
+  border-radius: 1%;
+
+}
+*{
+  box-sizing: border-box;
+}
+
+/*.bg-image {
+  /* The image used */
+  background: url(https://image.shutterstock.com/image-photo/heap-fruits-vegetables-on-wooden-260nw-320039153.jpg);
+  
+  /* Add the blur effect */
+  /*filter: blur(8px);
+  -webkit-filter: blur(8px);*/
+   
+   /*background : blur;*/
+  /* Full height */
+  height: 100%; 
+  background: blur
+  
+  /* Center and scale the image nicely */
+ /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index:2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.cart-btn{
+   color: black;
+   float: right;
+   width: 60px;
+  height: 60px;
+  border-radius:50% ;
+  background: white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  transform:translateY(80%);
+
+}
+
+.footer-main-div{
+  transform:translate(0%,320%);
+  width: 100%;
+  height: auto;
+  margin: auto;
+  background: #272727;
+  padding: 20px 0px;
+}
+
+.footer-social-icons{
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.footer-social-icons ul{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.footer-social-icons ul li{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0px 10px;
+  border-radius: 100%;
+  background: #ffa500;
+}
+
+.footer-social-icons ul li a{
+  color: #272727;
+  font-size: 25px;
+}
+
+.footer-social-icons ul li a i{
+  line-height: 50px;
+}
+
+.footer-social-icons ul li:hover{
+  background: blue;
+}
+
+.footer-social-icons ul li:hover a{
+  color: #fff;
+}
+
+.footer-menu-one{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.footer-menu-one ul{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.footer-menu-one ul li{
+  display: inline-block;
+  margin: 0px 15px;
+}
+
+.footer-menu-one ul li a{
+  font-family: arial;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.footer-menu-one ul li a:hover{
+  color: #ffa500;
+}
+
+.footer-menu-two{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.footer-menu-two ul{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.footer-menu-two ul li{
+  display: inline-block;
+  margin: 0px 15px;
+}
+
+.footer-menu-two ul li a{
+  font-family: arial;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.footer-menu-two ul li a:hover{
+  color: #ffa500;
+}
+
+.footer-bottom{
+  transform:translate(0%,400%);
+  width: 100%
+  height:auto;
+  margin: auto;
+  background: #ffa500;
+  padding: 10px;
+}
+
+.footer-bottom p{
+  font-family: arial;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.footer-bottom p a{
+  color: #fff;
+}
+
+.footer-bottom p a:hover{
+  color:#272727;
+}
+
+
+.card body{
+  height: 100;
+  width: 100;
+}
+
+select{
+  margin:10px;
+  width:140px;
+  padding:5px 5px 5px 5px;
+  font-size: 16px;
+  border:1px solid #CCC;
+  height: 34px;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
+  border-radius: 5px;
+}
+
+
+.truck{
+  font-style: italic;
+  font-weight: 100;
+  font-size: 32px;
+  font-family: Arial,"Times New Roman";
+  color: white;
+  transform: translate(5%,15%);
+
+}
+.truck1
+{
+  font-style: bold;
+  color: white;
+  transform: translate(40%,75%);
+}
